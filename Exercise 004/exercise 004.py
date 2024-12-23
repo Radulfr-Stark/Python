@@ -19,6 +19,7 @@ else:
     print('{}, is alphanumeric? > {}'.format(defaultOutput2, a.isalnum()))
     print('{}, is uppercase? > {}'.format(defaultOutput2, a.isupper()))
     print('{}, is lowercase? > {}'.format(defaultOutput2, a.islower()))
+    print('{}, is captalized? > {}'.format(defaultOutput2, a.captalized()))
 
 #Using variables to configure outputs makes your code dinamic and easy to update. '.format() is sending a information, in this case a variable to '{}'.
 
@@ -42,6 +43,7 @@ else:
 # print('{}, é numérico? > {}'.format(defaultOutput2, a.isnumeric())) 
 # print('{}, é alfanumérico? > {}'.format(defaultOutput2, a.isalnum())) 
 # print('{}, está em maiúsculas? > {}'.format(defaultOutput2, a.isupper())) 
-# print('{}, é minúsculo? > {}'.format(defaultOutput2, a.islower())) 
+# print('{}, é minúsculo? > {}'.format(defaultOutput2, a.islower()))
+# print('{}, é captalizado/primeira letra maiúsculo? > {}'.format(defaultOutput2, a.title()))
 
 ##Usar variáveis para configurar saídas torna seu código dinâmico e fácil de atualizar. '.format() está a enviar uma informação, neste caso uma variável para '{}'.
